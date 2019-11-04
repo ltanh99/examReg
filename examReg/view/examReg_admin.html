@@ -1,0 +1,152 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ABC University</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="header-logo">
+			<div class="header-title">EXAM REGISTER</div>
+		</div>
+		<div class="header-right">
+			<div class="language-box">
+				<select>
+					<option selected>Tiếng việt(Vietnamese)</option>
+					<option>Tiếng Anh(English)</option>
+				</select>
+			</div>
+			<div class="notification">
+
+				<i class="fa fa-globe" style="font-size:24px">
+					<div class="number-notification">3</div>
+				</i>
+			</div>
+			<button class="user-bar">
+				<i class="fa fa-user-circle" aria-hidden="true" style="font-size: 24px"></i>
+				<span>Lê Tuấn Anh</span>
+			</button>
+		</div>
+	</div>
+	<!-- menu -->
+	<div class="menu">
+		<div class="menu-bar">
+			<ul>
+				<li>
+					<button>
+						<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+						Danh sách môn thi
+					</button>
+				</li>
+				<li>
+					<button>
+						<i class="fa fa-list-alt" aria-hidden="true"></i>
+						Danh sách sinh viên - Tài khoản
+					</button>
+				</li>
+				<li>
+					<button>
+						<i class="fa fa-print" aria-hidden="true"></i>
+						Tình trạng học tập
+					</button>
+				</li>
+				<li>
+					<button>
+						<i class="fa fa-life-ring" aria-hidden="true"></i>
+						Kết quả thi
+					</button>
+					<button>
+						<i class="fa fa-life-ring" aria-hidden="true"></i>
+						In ra kết quả
+					</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- content -->
+	<div class="content">
+		<div class="grid">
+			<div class="toolbar">
+				<div class="function-bar">
+					<button><i class="fa fa-refresh" aria-hidden="true"></i>Làm mới</button>
+					<button><i class="fa fa-eye-slash" aria-hidden="true"></i>Ẩn</button>
+				</div>
+				<div class="search-bar">
+					<input type="text" placeholder="Tìm học phần/sinh viên" />
+					<button><i class="fa fa-search" aria-hidden="true"></i></button>
+				</div>
+			</div>
+			<div class="content-grid">
+				<!-- filter -->
+				<div class="filter">
+					<table>
+						<thead>
+							<tr>
+								<th>
+									Tên
+									<div class="filter-item">
+										<input type="text" name="">
+										<button><i class="fa fa-filter" aria-hidden="true"></i></button>
+									</div>
+								</th>
+								<th>
+									Mã số sinh viên
+									<div class="filter-item">
+										<input type="text" name="">
+										<button><i class="fa fa-filter" aria-hidden="true"></i></button>
+									</div>
+								</th>
+								<th>
+									Tên đăng nhập
+									<div class="filter-item">
+										<input type="text" name="">
+										<button><i class="fa fa-filter" aria-hidden="true"></i></button>
+									</div>
+								</th>
+								<th>
+									Mã môn học
+									<div class="filter-item">
+										<input type="text" name="">
+										<button><i class="fa fa-filter" aria-hidden="true"></i></button>
+									</div>
+								</th>
+								<th>
+									Tên môn học
+									<div class="filter-item">
+										<input type="text" name="">
+										<button><i class="fa fa-filter" aria-hidden="true"></i></button>
+									</div>
+								</th>
+								<th>
+									Ngày thi
+									<div class="filter-item">
+										<input type="text" name="">
+										<button><i class="fa fa-calendar" aria-hidden="true"></i></button>
+									</div>
+								</th>
+								<th>
+									Ca thi
+									<div class="filter-item">
+										<input type="text" name="">
+										<button><i class="fa fa-filter" aria-hidden="true"></i></button>
+									</div>
+								</th>
+
+
+							</tr>
+						</thead>
+					</table>
+				</div>
+				<!-- content -->
+				<div class="content-list"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
