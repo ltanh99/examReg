@@ -1,0 +1,222 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+/*header*/
+.header{
+	position:relative;
+	background-color: #5680E9;
+	top:0;
+	left: 0;
+	right:0;
+	height: 60px; 
+	display:flex;
+    min-width: 768px;
+}
+	.header .header-logo{
+		display: flex;
+		width:300px;
+	}
+		.header .header-logo .header-title{
+			color:#fff;
+			font-size:25px;
+			align-self: center;
+			margin: 0 4px 0;
+			font-weight: bold;
+			cursor: pointer;
+		}
+	.header .header-right{
+		position: absolute;
+		right:0;
+		top:0;
+		bottom: 0;
+		display:flex;
+		white-space: nowrap;
+	}
+		
+		.header .header-right .language-box{
+			align-self: center;
+			margin: 0 8px 0;
+
+		}
+			.header .header-right .language-box select{
+				background-color: #f9f9f9;
+				color: #000;
+				height: 28px;
+				cursor: pointer;
+			}
+				.header .header-right .language-box select option{
+					height: 35px;
+					cursor: pointer;
+				}
+		.header .header-right .notification{
+			align-self: center;
+			margin: 0 8px 0;
+			position: relative;
+			cursor: pointer;
+		}
+			.header .header-right .notification i .number-notification{
+					position: absolute;
+		            top: -1px;
+    				right: -5px;
+		            color: #fff;
+		            padding: 0px 3px 1.5px;
+		            font-size: 13px;
+		            font-weight: bold;
+		            background-color: #ff5252;
+				}
+		.header .header-right .user-bar{
+			display: flex;
+			background-color: transparent;
+			border: none;
+			align-self: center;
+			margin: 0 8px 0;
+			cursor: pointer;
+		}
+			.header .header-right .user-bar span{
+				color:#fff;
+				font-size:16px; 
+				margin: 0 4px 0;
+				align-self: center;
+			}
+
+			.header .header-right .user-bar i{
+				margin: 0 4px 0;
+			}
+				
+/*menu*/
+.menu{
+	position: absolute;	
+	top:60px;
+	width:300px;
+	left:0;
+	bottom:0;
+}
+	.menu .menu-bar{
+		margin:8px 4px auto;
+		background-color: #f9f9f9;
+	}
+		.menu .menu-bar ul{
+
+		}
+			.menu .menu-bar ul li{
+				
+			}
+				.menu .menu-bar ul li button{
+					padding:0 4px 0;
+					border: solid 1px #d9d9d9;
+					background-color: #ededed;
+		    		background-image: -webkit-linear-gradient(top,#f9f9f9,#e3e4e6);
+					text-align: left;
+					width: 100%;
+					cursor: pointer;
+					height: 40px;
+					font-size: 16px;
+
+				}
+
+				.menu .menu-bar ul li button:hover{
+					background-color: #5680E9;
+					color: #000;
+					border-top: none;
+				}
+/*content*/
+.content{
+	position: absolute;
+	background-color: #fff;
+	top:60px;
+	left:300px;
+	bottom:0;
+	right:0;
+}
+	.content .grid{
+		margin:8px 4px;
+		min-height:500px;
+		border: 1px solid #d9d9d9;
+	}
+		.content .grid .toolbar{
+			height: 28px;
+			position: relative;
+		    border: 1px solid #d9d9d9;
+		    display: flex;
+		    padding: 2px;
+		    background-color: #ededed;
+		    background-image: -webkit-linear-gradient(top,#f9f9f9,#e3e4e6);
+		    
+		}
+			.content .grid .toolbar .function-bar{
+				position: absolute;
+				top:2px;
+				bottom: 2px;
+				left: 2px;
+				display: flex;
+			}
+				.content .grid .toolbar .function-bar button{
+					border:none;
+					background-color: transparent;
+					margin:0 4px 0;
+					padding: 0 2px 0;
+				}
+					.content .grid .toolbar .function-bar button i{
+						margin-right: 4px;
+					}	
+				.content .grid .toolbar .function-bar button:hover{
+					border-bottom: solid 2px #5680E9;
+					
+				}		
+			.content .grid .toolbar .search-bar{
+				position: absolute;
+				top: 2px;
+				bottom: 2px;
+				right: 0px;
+				display: flex;
+			}
+				.content .grid .toolbar .search-bar input{
+					height: calc(100% - 8px);
+					margin-right: 0;
+					padding:2px;
+				}
+				.content .grid .toolbar .search-bar button{
+					height: 100%;
+					width: 28px;
+
+				}
+		.content .grid .content-grid{
+			
+			
+		}
+			.content .grid .content-grid .filter{
+				width: 100% ;
+				position: relative;
+			    border: 1px solid #d9d9d9;
+			    display: flex;
+			    background-color: #ededed;
+			}		
+
+				.content .grid .content-grid .filter table{
+					border-collapse: collapse;
+					border: 1px solid #d9d9d9;
+					width: 100%;
+				}
+					.content .grid .content-grid .filter table thead{
+						border: 1px solid #d9d9d9;
+					}
+						.content .grid .content-grid .filter table thead tr th{
+							border: 1px solid #d9d9d9;
+							font-size: 16px;
+							padding: 2px
+						}
+							.content .grid .content-grid .filter table thead tr th .filter-item{
+								display: flex;
+								justify-content: center;
+							}
+								.content .grid .content-grid .filter table thead tr th .filter-item button{
+									width: 24px;
+									margin-left: 0px;
+								}
