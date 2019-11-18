@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset = "utf-8"/>
+		<link ref = "stylesheet" href = "lib\jquery-ui-1.12.1.custom\jquery-ui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="lib\font-awesome-4.7.0\css\font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="ExamReg.css">
+	</head>
+	<body>
+		<div id = "container">
+			<div id = "header">
+				
+				<div class = "uni">
+					<h1>EXAM</h1> <h1>REGISTER</h1>
+				</div>
+				<div>
+					<h2>ABC university</h2>
+				</div>
+			</div>
+			<div id = "body">
+				<div class = "loginLeft">
+					<p><strong>ExamReg - Trang đăng ký thi của Trường Đại học ABC cho phép sinh viên được tự đăng ký dự thi, 
+					tạo điều kiện tốt nhất cho sinh viên.</strong></p>
+					<ul>
+						<h2>Thông Báo</h2>
+						<li><a href = "#">abc</a></li>
+						<li>abc</li>
+						<li>abc</li>
+						<li>abc</li>
+					</ul>
+
+					<h2>Hướng Dẫn Sử Dụng</h2>
+					<ol>
+						<li>Sinh viên đăng nhập vào hệ thống ExamReg.</li>
+						<li>Chọn lịch thi của học phần sinh viên cần đăng ký dự thi.</li>
+						<li>Đăng ký ca thi phù hợp.</li>
+						<li>Sau khi đăng ký xong, sinh viên xuất ra phiếu báo dự thi. Sinh viên sử dụng phiếu báo dự thi này để đi thi.</li>
+					</ol>
+				</div>
+				<div class = "loginRight">
+					<div class  = "login">
+						<div class = "headerLogin">
+							<label>ĐĂNG NHẬP</label>
+						</div>
+						<div class = "hr"></div>
+						<div>
+							<strong>Tên đăng nhập</strong>
+							<br/>
+							<input type="textbox" name="" autofocus="" class = "acc">
+							<br/>
+						</div>
+
+						<div>
+							<strong>Mật khẩu</strong>
+							<br>
+							<input type="password" name="" class = "acc">
+							<br/>
+						</div>
+
+						<div>
+							<a class = "forgot" href = "#reset-box">Quên mật khẩu?</a>
+							<input type = "submit" value = "Đăng Nhập" class = "submit"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "resetPassword" id = "reset-box">
+				<i class="fa fa-window-close-o" aria-hidden="true"></i>
+				<div>
+					<label>KHỞI TẠO LẠI MẬT KHẨU</label>
+					
+				</div>
+
+				
+				<div class = "hr"></div>
+				<form class="reset-content" action="#" method="post">
+					<div>
+						<strong>Nhập mã số sinh viên</strong><br/>
+						<input class = "infor" type="textbox"><br/>
+					</div>
+					<div>
+						<strong>Nhập địa chỉ email </strong>(Email đã khai báo trong hồ sơ)<br>
+						<input class = "infor" type="textbox"><br>
+					</div>
+					<div class = "sm">
+						<input class = submit type="submit" name="" value = "Gửi đi">
+					</div>
+
+				</form>
+			</div>
+			<div id = "footer"></div>
+		</div>
+		<script type="text/javascript" src = "lib\jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="lib\jquery-ui-1.12.1.custom\jquery-ui.min.js"></script>
+		<script type="text/javascript" src = "ExamReg.js"></script>
+	</body>
+</html>
